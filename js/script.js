@@ -11,3 +11,16 @@ mentre al colore preferito, voglio dare la possibilità di essere cambiato in fu
 quindi lo inserisco dentro ad una varibile (let) 
 */
 
+// Primo Passaggio
+
+const userName = prompt("Inserisci il tuo nome");
+const userLastname = prompt("Inserisci il tuo cognome");
+let favoriteColor = prompt("Inserisci il tuo colore preferito");
+
+
+// Secondo Passaggio
+
+let element = document.getElementById("password");
+element.innerHTML = `${userName}${userLastname}${favoriteColor}21`;
+
+console.log(element);
